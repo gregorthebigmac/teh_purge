@@ -23,7 +23,7 @@ sudo apt purge -y gnome-photos
 sudo apt purge -y gnome-sudoku
 sudo apt purge -y gnome-user-guide
 sudo apt purge -y gnome-weather
-sudo apt purge -y libreoffice*
+sudo apt purge -y libreoffice
 sudo apt purge -y rhythmbox
 sudo apt purge -y totem
 
