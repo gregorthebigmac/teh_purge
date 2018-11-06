@@ -1,4 +1,4 @@
-sudo apt-get install -y gmd3
+sudo apt-get install -y gdm3
 sudo apt-get install -y chrome-gnome-shell
 sudo apt-get install -y gnome-shell-extensions
 sudo apt-get install -y update-notifier
