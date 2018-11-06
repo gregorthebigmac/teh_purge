@@ -25,4 +25,6 @@ sudo apt purge -y gnome-weather
 sudo apt purge -y libreoffice*
 sudo apt purge -y rhythmbox
 sudo apt purge -y totem
-sudo dpkg --remove --force-depends caribou
+
+# run this one at your own risk!
+./apt-holepunch caribou
