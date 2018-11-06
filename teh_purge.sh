@@ -48,14 +48,15 @@ sudo apt purge -y totem
 if [ $1 == -y]
     sudo apt purge -y caribou
     ./install.sh
+#
 # If you want the reinstallation of Gnome to be done automatically, you can
 # simply uncomment the preceeding line to have this script run install.sh once
 # it completes.
-
+#
 # Alternatively, you can simply use the following command at the terminal to
 # have them run back-to-back:
 # $ ./teh_purge.sh && ./install.sh
-
+#
 elif [ -n $1 ]  # If the user does not pass an arg to this script, run this.
 then
     echo 'WARNING! Removing the package caribou uninstalls the following packages:'
