@@ -44,6 +44,7 @@ sudo apt purge -y totem
 ###############################################################################
 
 if [ -z $1 ]
+then
     echo ''
     echo '*********************************************************************'
     echo 'WARNING! Removing the package caribou uninstalls the following packages:'
@@ -65,7 +66,7 @@ if [ -z $1 ]
         sudo apt purge -y caribou
     else
         echo 'quitting...'
-#    fi
+   fi
 fi
 if [ -n $1 ]  # If the user does not pass an arg to this script, run this.
 then
