@@ -50,7 +50,7 @@ then
     if [ $1 == -y ]
     then
         sudo apt purge -y caribou
-        ./install.sh
+        ./install_me.sh
     fi
     # If you want the reinstallation of Gnome to be done automatically, you can
     # simply uncomment the preceeding line to have this script run install.sh once
