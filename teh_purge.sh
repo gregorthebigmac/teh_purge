@@ -68,7 +68,7 @@ then
         echo 'quitting...'
    fi
 fi
-if [ -n $1 ]  # If the user does not pass an arg to this script, run this.
+else  # If the user does not pass an arg to this script, run this.
 then
     # If the user passes the -y arg to this script, they know what they're doing,
     # let them do it.
