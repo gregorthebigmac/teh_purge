@@ -59,7 +59,7 @@ then
     # Alternatively, you can simply use the following command at the terminal to
     # have them run back-to-back:
     # $ ./teh_purge.sh && ./install.sh
-else
+elif [ $1 == '' ]
     echo ''
     echo '*********************************************************************'
     echo 'WARNING! Removing the package caribou uninstalls the following packages:'
