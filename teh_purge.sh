@@ -45,6 +45,21 @@ sudo apt purge -y totem
 
 if [ -n $1 ]  # If the user does not pass an arg to this script, run this.
 then
+    # If the user passes the -y arg to this script, they know what they're doing,
+    # let them do it.
+    if [ $1 == -y ]
+    then
+        sudo apt purge -y caribou
+        ./install.sh
+    fi
+    # If you want the reinstallation of Gnome to be done automatically, you can
+    # simply uncomment the preceeding line to have this script run install.sh once
+    # it completes.
+    #
+    # Alternatively, you can simply use the following command at the terminal to
+    # have them run back-to-back:
+    # $ ./teh_purge.sh && ./install.sh
+else
     echo ''
     echo '*********************************************************************'
     echo 'WARNING! Removing the package caribou uninstalls the following packages:'
@@ -67,23 +82,7 @@ then
     else
         echo 'quitting...'
     fi
-# If the user passes the -y arg to this script, they know what they're doing,
-# let them do it.
-elif [ $1 == -y ]
-then
-    sudo apt purge -y caribou
-    ./install.sh
-
-# If you want the reinstallation of Gnome to be done automatically, you can
-# simply uncomment the preceeding line to have this script run install.sh once
-# it completes.
-#
-# Alternatively, you can simply use the following command at the terminal to
-# have them run back-to-back:
-# $ ./teh_purge.sh && ./install.sh
-
+fi
 # if the user passed any argument to this script besides Y/y/yes, they know what
 # they want. Dump out.
-else
-    echo 'done'
-fi
+echo 'done'
