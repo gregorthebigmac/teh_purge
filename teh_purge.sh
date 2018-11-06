@@ -27,4 +27,4 @@ sudo apt purge -y rhythmbox
 sudo apt purge -y totem
 
 # run this one at your own risk!
-./apt-holepunch.sh caribou
+sudo ./apt-holepunch.sh caribou
