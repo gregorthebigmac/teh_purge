@@ -45,6 +45,8 @@ sudo apt purge -y totem
 
 if [ -n $1 ]  # If the user does not pass an arg to this script, run this.
 then
+    echo ''
+    echo '*********************************************************************'
     echo 'WARNING! Removing the package caribou uninstalls the following packages:'
     echo 'gdm3'
     echo 'gnome-shell'
