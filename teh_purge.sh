@@ -1,7 +1,6 @@
 # list of software to uninstall
 sudo apt purge -y aisleriot
 sudo apt purge -y brasero
-sudo apt purge -y caribou
 sudo apt purge -y cheese
 sudo apt purge -y deja-dup
 sudo apt purge -y empathy
@@ -27,3 +26,4 @@ sudo apt purge -y libreoffice
 sudo apt purge -y rhythmbox
 sudo apt purge -y totem
 
+#sudo apt purge -y caribou
