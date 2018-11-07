@@ -1,10 +1,3 @@
-sudo apt-get install -y gdm3
-sudo apt-get install -y chrome-gnome-shell
-sudo apt-get install -y gnome-shell-extensions
-sudo apt-get install -y update-notifier
-sudo apt-get install -y gnome-shell
-sudo apt-get install -y update-manager
-sudo apt-get install -y ubuntu-release-upgrader-gtk
 sudo apt-get install -y curl
 sudo apt-get install -y arp-scan
 sudo apt-get install -y htop
