@@ -9,3 +9,4 @@ apt-get install -y apt-transport-https
 apt-get update && sudo apt upgrade
 apt-get install -y code
 apt-get install -y vlc
+rm microsoft.gpg
