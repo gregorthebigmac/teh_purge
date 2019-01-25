@@ -8,3 +8,4 @@ sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable
 apt-get install -y apt-transport-https
 apt-get update && sudo apt upgrade
 apt-get install -y code
+apt-get install -y vlc
