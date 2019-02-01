@@ -1,0 +1,3 @@
+dconf dump / > file.txt
+dconf load / < file.txt
+
