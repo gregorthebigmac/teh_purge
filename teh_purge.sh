@@ -1,27 +1,29 @@
+#!/bin/bash
+
 # list of software to uninstall
-sudo apt purge -y aisleriot
-sudo apt purge -y brasero
-sudo apt purge -y cheese
-sudo apt purge -y deja-dup
-sudo apt purge -y empathy
-sudo apt purge -y evolution
-sudo apt purge -y gnome-accessibility-profiles
-sudo apt purge -y gnome-accessibility-themes
-sudo apt purge -y gnome-calendar
-sudo apt purge -y gnome-contacts
-sudo apt purge -y gnome-documents
-sudo apt purge -y gnome-getting-started-docs
-sudo apt purge -y gnome-mahjongg
-sudo apt purge -y gnome-maps
-sudo apt purge -y gnome-mines
-sudo apt purge -y gnome-music
-sudo apt purge -y gnome-orca
-sudo apt purge -y gnome-online-accounts
-sudo apt purge -y gnome-online-miners
-sudo apt purge -y gnome-photos
-sudo apt purge -y gnome-sudoku
-sudo apt purge -y gnome-user-guide
-sudo apt purge -y gnome-weather
-sudo apt purge -y libreoffice*
-sudo apt purge -y rhythmbox
-sudo apt purge -y totem
+apt purge -y aisleriot
+apt purge -y brasero
+apt purge -y cheese
+apt purge -y deja-dup
+apt purge -y empathy
+apt purge -y evolution
+apt purge -y gnome-accessibility-profiles
+apt purge -y gnome-accessibility-themes
+apt purge -y gnome-calendar
+apt purge -y gnome-contacts
+apt purge -y gnome-documents
+apt purge -y gnome-getting-started-docs
+apt purge -y gnome-mahjongg
+apt purge -y gnome-maps
+apt purge -y gnome-mines
+apt purge -y gnome-music
+apt purge -y gnome-orca
+apt purge -y gnome-online-accounts
+apt purge -y gnome-online-miners
+apt purge -y gnome-photos
+apt purge -y gnome-sudoku
+apt purge -y gnome-user-guide
+apt purge -y gnome-weather
+apt purge -y libreoffice*
+apt purge -y rhythmbox
+apt purge -y totem
