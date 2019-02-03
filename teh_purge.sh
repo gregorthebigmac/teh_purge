@@ -27,3 +27,4 @@ apt purge -y gnome-weather
 apt purge -y libreoffice*
 apt purge -y rhythmbox
 apt purge -y totem
+apt autoremove -y
