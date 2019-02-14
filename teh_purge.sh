@@ -39,4 +39,5 @@ apt purge -y aisleriot \
 && apt-get install -y code \
 && apt-get install -y vlc \
 && rm microsoft.gpg \
-&& apt-get install -y caffeine
+&& apt-get install -y caffeine \
+&& apt-get install keepass2 \
