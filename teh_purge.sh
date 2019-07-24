@@ -26,6 +26,9 @@ apt purge gnome-weather
 apt purge libreoffice*
 apt purge rhythmbox
 apt purge totem
+rm -rf /usr/share/applications/ubuntu-amazon.default.desktop
+rm -rf /usr/share/unity-webapps/userscripts/unity-webapps-amazon
+apt purge apport
 apt autoremove
 apt-get install -y curl
 apt-get install -y arp-scan
@@ -43,5 +46,3 @@ apt-get install -y vlc
 rm microsoft.gpg
 apt-get install -y caffeine
 apt-get install -y keepass2
-rm -rf /usr/share/applications/ubuntu-amazon.default.desktop
-rm -rf /usr/share/unity-webapps/userscripts/unity-webapps-amazon
