@@ -43,3 +43,5 @@ apt-get install -y vlc
 rm microsoft.gpg
 apt-get install -y caffeine
 apt-get install -y keepass2
+rm -rf /usr/share/applications/ubuntu-amazon.default.desktop
+rm -rf /usr/share/unity-webapps/userscripts/unity-webapps-amazon
