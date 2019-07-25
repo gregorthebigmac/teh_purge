@@ -26,7 +26,7 @@ apt purge gnome-weather
 apt purge libreoffice*
 apt purge rhythmbox
 apt purge totem
-rm -rf /usr/share/applications/ubuntu-amazon.default.desktop
+rm -rf /usr/share/applications/ubuntu-amazon-default.desktop
 rm -rf /usr/share/unity-webapps/userscripts/unity-webapps-amazon
 apt purge apport
 apt autoremove
